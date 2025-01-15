@@ -1,0 +1,10 @@
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: var(--padding-section);
+  background-color: var(--color-background);
+  color: var(--color-primary);
+  gap: 20px;
+}

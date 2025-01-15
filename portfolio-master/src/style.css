@@ -1,0 +1,62 @@
+/* importar fuente nunito */
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Abhaya+Libre:wght@400;500;600;700;800&family=Audiowide&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Just+Me+Again+Down+Here&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Abhaya+Libre:wght@400;500;600;700;800&family=Audiowide&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Just+Me+Again+Down+Here&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&display=swap');
+
+
+:root {
+  --color-background: #0a0f1a;
+  --color-primary: #ffffff;
+  --color-secondary: #ccc;
+  --color-accent: rgb(76, 240, 248);
+  --color-hover: rgba(255, 255, 255, 0.8);
+
+  --font-primary: 'Poppins', sans-serif;
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+
+  --padding-section: 4rem 2rem;
+  --margin: 20px;
+
+  --box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif; /* Cambiar a 'Nunito' si prefieres */
+  background-color: #0a0f1a;
+  color: #ffffff;
+}
+
+h1, h2{
+  font-family: 'Just Me Again Down Here';
+  letter-spacing: 0.2rem;
+  font-weight: 300 !important;
+}
+h3, h4, h5, h6 {
+  font-family: 'Poppins';
+  letter-spacing: 0.1rem;
+  font-weight: 400;
+}
+p {
+  font-weight: 300;
+  line-height: 1.6;
+  color: #ccc;
+}
+button {
+  font-family: 'Poppins';
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+}
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  font-family: "Just Me Again Down Here", cursive;
+}

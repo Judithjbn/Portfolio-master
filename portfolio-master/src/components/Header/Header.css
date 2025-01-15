@@ -1,0 +1,11 @@
+header {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.logo {
+  width: 60px;
+  height: auto;
+  opacity: 0.8;
+}

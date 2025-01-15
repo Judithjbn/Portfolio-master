@@ -1,0 +1,31 @@
+.menu {
+    position: fixed;
+    top: 50%;
+    left: 30px;
+    transform: translateY(-50%);
+    z-index: 1000;
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu li {
+    margin: var(--margin-item) 0;
+    font-size: 1rem;
+    color: var(--color-secondary);
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: var(--font-primary);
+    transition: all 0.3s ease;
+  }
+  
+  .menu li:hover,
+  .menu li.active {
+    color: var(--color-hover);
+    transform: scale(1.1);
+    text-shadow: 0 0 10px var(--color-accent);
+  }
