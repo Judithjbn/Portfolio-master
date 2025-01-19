@@ -26,7 +26,7 @@ export function loadProjects() {
       technologies: ["React", "Astro"],
       image: "./src/assets/webpat.jpg",
       github: "#",
-      live: "#"
+      live: "https://patrinktattoo.netlify.app/"
     },
     {
       id: 2,
