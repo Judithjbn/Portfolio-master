@@ -1,3 +1,5 @@
+import { judithContact } from "../../import";
+
 export function loadContact() {
     const contactSection = document.createElement("section");
     contactSection.id = "contact";
@@ -10,7 +12,7 @@ export function loadContact() {
             <div class="contact-top">
                 <div class="profile-info">
                 <img
-                    src="./src/assets/judith-barril-navarro.jpg"
+                    src="${judithContact}"
                     alt="Foto de Judith"
                     class="profile-photo"
                 />
