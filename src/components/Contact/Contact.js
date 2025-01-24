@@ -20,10 +20,10 @@ export function loadContact() {
                 </div>
                 </div>
                 <div class="social-links">
-                <a href="inkedin.com/in/judithjbn" target="_blank">
-                    <img src="./src/assets/linkedin-draw-logo.png" alt="LinkedIn" />
+                <a href="http://linkedin.com/in/judithjbn" target="_blank">
+                    <img src="src\assets\linkedin-draw-logo.png" alt="LinkedIn" />
                 </a>
-                <a href="instagram.com/sitetive" target="_blank">
+                <a href="http://instagram.com/sitetive" target="_blank">
                     <img src="./src/assets/instagram-draw-logo.png" alt="Instagram" />
                 </a>
                 </div>
