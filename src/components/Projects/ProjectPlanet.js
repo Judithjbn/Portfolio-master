@@ -21,7 +21,6 @@ export function createProjectPlanet(project) {
   
   function showPopup(project) {
     const popup = document.getElementById("project-popup");
-    imageSRC = src.image;
     popup.innerHTML = `
       <div class="popup-content">
         <button id="close-popup">✕</button>
