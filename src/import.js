@@ -20,4 +20,5 @@ export {
   siSoy,
   coverChatBot,
   coverPat,
+  scroll,
 };
