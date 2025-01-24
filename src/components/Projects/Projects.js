@@ -26,7 +26,7 @@ export function loadProjects() {
       name: "Web Coorporativa Tattoo",
       description: "Diseño y desarrollo web para Patri Ink Tattoo",
       technologies: ["React", "Astro"],
-      image: "${coverPat}",
+      image: coverPat,
       github: "#",
       live: "https://patrinktattoo.netlify.app/"
     },
@@ -35,7 +35,8 @@ export function loadProjects() {
       name: "Chatbot IA Gemini",
       description: "Desarrollo de chatbot funcional con IA para implementarlo en Web.",
       technologies: ["React", "CSS", "Node.js"],
-      image: "${coverChatBot}",
+      //imagen importada chatbot
+      image: coverChatBot,
       github: "#",
       live: "#",
     }

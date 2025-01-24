@@ -25,7 +25,7 @@ export function createProjectPlanet(project) {
       <div class="popup-content">
         <button id="close-popup">✕</button>
         <h3>${project.name}</h3>
-        <img src="${project.image}" alt="${project.name}">
+        <img src="${project.src.image}" alt="${project.name}">
         <p>${project.description}</p>
         <div class="tech-tags">
           ${project.technologies.map(tech => `<span>${tech}</span>`).join("")}
