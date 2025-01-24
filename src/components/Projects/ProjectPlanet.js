@@ -21,11 +21,12 @@ export function createProjectPlanet(project) {
   
   function showPopup(project) {
     const popup = document.getElementById("project-popup");
+    imageSRC = src.image;
     popup.innerHTML = `
       <div class="popup-content">
         <button id="close-popup">✕</button>
         <h3>${project.name}</h3>
-        <img src="${project.src.image}" alt="${project.name}">
+        <img src="${project.image}" alt="${project.name}">
         <p>${project.description}</p>
         <div class="tech-tags">
           ${project.technologies.map(tech => `<span>${tech}</span>`).join("")}

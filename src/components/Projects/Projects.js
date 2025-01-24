@@ -35,7 +35,6 @@ export function loadProjects() {
       name: "Chatbot IA Gemini",
       description: "Desarrollo de chatbot funcional con IA para implementarlo en Web.",
       technologies: ["React", "CSS", "Node.js"],
-      //imagen importada chatbot
       image: coverChatBot,
       github: "#",
       live: "#",
