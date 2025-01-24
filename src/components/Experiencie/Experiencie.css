@@ -78,6 +78,7 @@
   background-color: var(--color-accent);
 }
 .toggle-buttons .active {
+  color: var(--color-background);
   background-color: var(--color-accent);
 }
 .hidden {

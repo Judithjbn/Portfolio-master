@@ -34,9 +34,12 @@
   object-fit: cover;
   border: 2px solid var(--color-accent);
 }
+.social-links a {
+  text-decoration: none;
+}
 .social-links a img {
-  width: 30px;
-  height: 30px;
+  width: 1.5rem;
+  height: 1.5rem;
   margin-left: 15px;
   transition: transform 0.3s ease;
 }

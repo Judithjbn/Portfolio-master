@@ -22,9 +22,9 @@ export function loadContact() {
                 </div>
                 </div>
                 <div class="social-links">
-                <a href="http://linkedin.com/in/judithjbn" target="_blank">
-                    <img src="${logoLinkedin}" alt="Linkedin" />
-                </a>
+                    <a href="http://linkedin.com/in/judithjbn" target="_blank">
+                        <img src="${logoLinkedin}" alt="Linkedin" />
+                    </a>
                 <a href="http://instagram.com/sitetive" target="_blank">
                     <img src="${logoInstagram}" alt="Instagram" />
                 </a>
