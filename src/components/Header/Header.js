@@ -1,3 +1,5 @@
+import { logo } from "../../import";
+
 export function loadHeader() {
   const header = document.createElement('header');
   header.classList.add('header');
@@ -8,7 +10,7 @@ export function loadHeader() {
       <span></span>
       <span></span>
     </div>
-    <img src="./src/assets/logo.png" alt="Logo" class="logo" id="logo">
+    <img src="${logo}" alt="Logo" class="logo" id="logo">
   `;
 
   document.body.prepend(header);

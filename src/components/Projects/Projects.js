@@ -1,5 +1,7 @@
 import { createProjectPlanet } from "./ProjectPlanet.js";
 
+import { coverChatBot,  coverPat } from "../../import";
+
 export function loadProjects() {
   const projectsSection = document.createElement("section");
   projectsSection.id = "projects";
@@ -24,7 +26,7 @@ export function loadProjects() {
       name: "Web Coorporativa Tattoo",
       description: "Diseño y desarrollo web para Patri Ink Tattoo",
       technologies: ["React", "Astro"],
-      image: "./src/assets/webpat.jpg",
+      image: "${coverPat}",
       github: "#",
       live: "https://patrinktattoo.netlify.app/"
     },
@@ -33,7 +35,7 @@ export function loadProjects() {
       name: "Chatbot IA Gemini",
       description: "Desarrollo de chatbot funcional con IA para implementarlo en Web.",
       technologies: ["React", "CSS", "Node.js"],
-      image: "./src/assets/chatbot-gemini.jpg",
+      image: "${coverChatBot}",
       github: "#",
       live: "#",
     }

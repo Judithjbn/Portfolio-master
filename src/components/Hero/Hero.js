@@ -1,3 +1,5 @@
+import { profile, scroll } from "../../import";
+
 export function loadHero() {
   const hero = document.createElement('section');
   hero.classList.add('hero');
@@ -11,9 +13,9 @@ export function loadHero() {
       <div class="profile-container">
       <span class="halo"></span>
       <span class="halo2"></span>
-        <img src="./src/assets/profile.png" alt="Perfil de Judith">
+        <img src="${profile}" alt="Perfil de Judith">
       </div>
-       <img src="./src/assets/scroll.svg" alt="Scroll Down" class="scroll-draw">
+       <img src="${scroll}" alt="Scroll Down" class="scroll-draw">
     </div>
   `;
 

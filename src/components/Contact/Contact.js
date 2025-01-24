@@ -1,4 +1,4 @@
-import { judithContact } from "../../import";
+import { judithContact, logoLinkedin, logoInstagram } from "../../import";
 
 export function loadContact() {
     const contactSection = document.createElement("section");
@@ -23,10 +23,10 @@ export function loadContact() {
                 </div>
                 <div class="social-links">
                 <a href="http://linkedin.com/in/judithjbn" target="_blank">
-                    <img src="src\assets\linkedin-draw-logo.png" alt="LinkedIn" />
+                    <img src="${logoLinkedin}" alt="Linkedin" />
                 </a>
                 <a href="http://instagram.com/sitetive" target="_blank">
-                    <img src="./src/assets/instagram-draw-logo.png" alt="Instagram" />
+                    <img src="${logoInstagram}" alt="Instagram" />
                 </a>
                 </div>
             </div>

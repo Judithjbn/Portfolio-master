@@ -1,3 +1,5 @@
+import { logoGithub } from "../../import";
+
 export function loadFooter() {
     const footerSection = document.createElement("section");
     footerSection.id = "footer";
@@ -9,7 +11,7 @@ export function loadFooter() {
      <a href="https://github.com/Judithjbn" target="_blank">
         <img 
             class="footer-icon" 
-            src="./src/assets/github-logo.png"
+            src="${logoGithub}"
             alt="Github Icon"
             width="60">
         </>
