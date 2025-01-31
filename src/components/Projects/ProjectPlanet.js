@@ -18,7 +18,7 @@ export function createProjectPlanet(project) {
   
     return planet;
   }
-  
+          
   function showPopup(project) {
     const popup = document.getElementById("project-popup");
     popup.innerHTML = `

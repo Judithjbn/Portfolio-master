@@ -6,12 +6,12 @@
   }
   
   .filter-buttons {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
   
   .filter-btn {
     padding: 10px 20px;
-    margin: 0 5px;
+    margin: 2 5px;
     border: none;
     background-color: #1a1a2e;
     color: #fff;
@@ -74,6 +74,9 @@
     padding: 20px;
   }
   .popup-content {
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
     background-color: #1a1a2e;
     padding: 20px;
     border-radius: 15px;

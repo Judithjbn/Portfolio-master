@@ -1,6 +1,6 @@
 import { createProjectPlanet } from "./ProjectPlanet.js";
 
-import { coverChatBot,  coverPat } from "../../import";
+import { coverChatBot,  coverPat, coverAlerion, coverIniatiativ } from "../../import.js";
 
 export function loadProjects() {
   const projectsSection = document.createElement("section");
@@ -10,8 +10,9 @@ export function loadProjects() {
   projectsSection.innerHTML = `
     <h2 class="section-title">#proyectos</h2>
     <div class="filter-buttons">
+      <button data-tech="Astro" class="filter-btn">Astro</button>
+      <button data-tech="JS Vanilla" class="filter-btn">JS Vanilla</button>
       <button data-tech="React" class="filter-btn">React</button>
-      <button data-tech="TypeScript" class="filter-btn">TypeScript</button>
       <button data-tech="Node.js" class="filter-btn">Node.js</button>
     </div>
     <div class="projects-grid" id="projects-grid"></div>
@@ -33,12 +34,27 @@ export function loadProjects() {
     {
       id: 2,
       name: "Chatbot IA Gemini",
-      description: "Desarrollo de chatbot funcional con IA para implementarlo en Web.",
-      technologies: ["React", "CSS", "Node.js"],
+      description: "En proceso: Desarrollo de chatbot funcional con IA para implementarlo en Web.",
+      technologies: ["JS Vanilla", "CSS"],
       image: coverChatBot,
-      github: "#",
-      live: "#",
-    }
+      github: "https://github.com/Judithjbn/ChatBot",
+    },
+    {
+      id: 3,
+      name: "Web App Alerion",
+      description: "Diseño y maquetación (React) de dashboard para la empresa Alerion Tech.<br> <em style='font-size: 0.8rem;'>Por razones de confidencialidad, no se puede mostrar el enlace al repositorio.</em>",
+      technologies: ["React", "Material UI", "CSS", "Node.js"],
+      image: coverAlerion,
+    },
+    {
+      id: 4,
+      name: "Iniatiativ",
+      description: "Soporte en la maquetación con CSS, JS y Elementor.",
+      technologies: ["CSS", "JS Vanilla", "WordPress"],
+      image: coverIniatiativ,
+      live: "https://asiico.org/",
+    },
+    
   ];
 
   const projectsGrid = document.getElementById("projects-grid");

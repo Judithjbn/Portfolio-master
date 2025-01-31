@@ -9,6 +9,8 @@ const scroll = '/scroll.svg';
 
 const coverChatBot = '/chatbot-gemini.jpg';
 const coverPat = '/webpat.jpg';
+const coverAlerion = '/webAlerion.png';
+const coverIniatiativ = '/initativ-portfolio.jpg';
 
 export {
   logoGithub,
@@ -20,5 +22,7 @@ export {
   siSoy,
   coverChatBot,
   coverPat,
+  coverAlerion,
+  coverIniatiativ,
   scroll,
 };
