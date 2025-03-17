@@ -59,7 +59,7 @@ export function loadProjects() {
       id: 5,
       name: "Web App Gsap",
       description: "Diseño y maquetación sencilla como muestra de conocimientos en la libreria GSAP.",
-      technologies: ["React", "Material UI", "CSS", "Node.js, GSAP"],
+      technologies: ["CSS", "GSAP"], 
       image: coverGsap,
       live: "https://gsap-sitetive.netlify.app/",
     }
