@@ -15,6 +15,7 @@ export function loadProjects() {
       <button data-tech="React" class="filter-btn">React</button>
       <button data-tech="Node.js" class="filter-btn">Node.js</button>
       <button data-tech="GSAP" class="filter-btn">GSAP</button>
+      <button data-tech="all" class="filter-btn">Todas</button>
     </div>
     <div class="projects-grid" id="projects-grid"></div>
     <div id="project-popup" class="popup hidden"></div>
@@ -27,7 +28,7 @@ export function loadProjects() {
       id: 1,
       name: "Web Coorporativa Tattoo",
       description: "Diseño y desarrollo web para Patri Ink Tattoo",
-      technologies: ["React", "Astro"],
+      technologies: ["React", "Astro", "all"],
       image: coverPat,
       github: "#",
       live: "https://patrinktattoo.netlify.app/"
@@ -36,7 +37,7 @@ export function loadProjects() {
       id: 2,
       name: "Chatbot IA Gemini",
       description: "En proceso: Desarrollo de chatbot funcional con IA para implementarlo en Web.",
-      technologies: ["JS Vanilla", "CSS"],
+      technologies: ["JS Vanilla", "CSS", "all"],
       image: coverChatBot,
       github: "https://github.com/Judithjbn/ChatBot",
     },
@@ -44,22 +45,22 @@ export function loadProjects() {
       id: 3,
       name: "Web App Alerion",
       description: "Diseño y maquetación (React) de dashboard para la empresa Alerion Tech.<br> <em style='font-size: 0.8rem;'>Por razones de confidencialidad, no se puede mostrar el enlace al repositorio.</em>",
-      technologies: ["React", "Material UI", "CSS", "Node.js"],
+      technologies: ["React", "Material UI", "CSS", "Node.js", "all"],
       image: coverAlerion,
     },
     {
       id: 4,
       name: "Iniatiativ",
       description: "Soporte en la maquetación con CSS, JS y Elementor.",
-      technologies: ["CSS", "JS Vanilla", "WordPress"],
+      technologies: ["CSS", "JS Vanilla", "WordPress", "all"],
       image: coverIniatiativ,
       live: "https://asiico.org/",
     },
     {
       id: 5,
-      name: "Web App Gsap",
+      name: "Demo Gsap",
       description: "Diseño y maquetación sencilla como muestra de conocimientos en la libreria GSAP.",
-      technologies: ["CSS", "GSAP"], 
+      technologies: ["CSS", "GSAP", "all"], 
       image: coverGsap,
       live: "https://gsap-sitetive.netlify.app/",
     }
