@@ -11,6 +11,7 @@ const coverChatBot = '/chatbot-gemini.jpg';
 const coverPat = '/webpat.jpg';
 const coverAlerion = '/webAlerion.png';
 const coverIniatiativ = '/initativ-portfolio.jpg';
+const coverGsap = '/gsap-portfolio.jpg';
 
 export {
   logoGithub,
@@ -24,5 +25,6 @@ export {
   coverPat,
   coverAlerion,
   coverIniatiativ,
+  coverGsap,
   scroll,
 };

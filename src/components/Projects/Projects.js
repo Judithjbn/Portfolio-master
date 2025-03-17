@@ -1,6 +1,6 @@
 import { createProjectPlanet } from "./ProjectPlanet.js";
 
-import { coverChatBot,  coverPat, coverAlerion, coverIniatiativ } from "../../import.js";
+import { coverChatBot,  coverPat, coverAlerion, coverIniatiativ, coverGsap } from "../../import.js";
 
 export function loadProjects() {
   const projectsSection = document.createElement("section");
@@ -14,6 +14,7 @@ export function loadProjects() {
       <button data-tech="JS Vanilla" class="filter-btn">JS Vanilla</button>
       <button data-tech="React" class="filter-btn">React</button>
       <button data-tech="Node.js" class="filter-btn">Node.js</button>
+      <button data-tech="GSAP" class="filter-btn">GSAP</button>
     </div>
     <div class="projects-grid" id="projects-grid"></div>
     <div id="project-popup" class="popup hidden"></div>
@@ -54,6 +55,14 @@ export function loadProjects() {
       image: coverIniatiativ,
       live: "https://asiico.org/",
     },
+    {
+      id: 5,
+      name: "Web App Gsap",
+      description: "Diseño y maquetación sencilla como muestra de conocimientos en la libreria GSAP.",
+      technologies: ["React", "Material UI", "CSS", "Node.js, GSAP"],
+      image: coverGsap,
+      live: "https://gsap-sitetive.netlify.app/",
+    }
     
   ];
 
