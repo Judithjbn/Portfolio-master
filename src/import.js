@@ -13,6 +13,9 @@ const coverAlerion = '/webAlerion.png';
 const coverIniatiativ = '/initativ-portfolio.jpg';
 const coverGsap = '/gsap-portfolio.jpg';
 const coverInvitaciones = '/wedding-portfolio.png';
+const coverObjectDetector = '/angular-portfolio.png';
+
+
 
 export {
   logoGithub,
@@ -28,5 +31,6 @@ export {
   coverIniatiativ,
   coverGsap,
   coverInvitaciones,
+  coverObjectDetector,
   scroll,
 };

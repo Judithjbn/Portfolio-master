@@ -1,6 +1,6 @@
 import { createProjectPlanet } from "./ProjectPlanet.js";
 
-import { coverChatBot, coverInvitaciones, coverPat, coverAlerion, coverIniatiativ, coverGsap } from "../../import.js";
+import { coverChatBot, coverInvitaciones, coverObjectDetector, coverPat, coverAlerion, coverIniatiativ, coverGsap } from "../../import.js";
 
 export function loadProjects() {
   const projectsSection = document.createElement("section");
@@ -10,6 +10,7 @@ export function loadProjects() {
   projectsSection.innerHTML = `
     <h2 class="section-title">#proyectos</h2>
     <div class="filter-buttons">
+      <button data-tech="Angular" class="filter-btn">Angular</button>
       <button data-tech="Astro" class="filter-btn">Astro</button>
       <button data-tech="JS Vanilla" class="filter-btn">JS Vanilla</button>
       <button data-tech="React" class="filter-btn">React</button>
@@ -50,6 +51,15 @@ export function loadProjects() {
     },
     {
       id: 4,
+      name: "Object Detector",
+      description: "Aplicación construida con Angular, utilizando la API de OpenCV para detección de objetos en imágenes.",
+      technologies: ["Angular", "OpenCV", "all"],
+      image: coverObjectDetector,
+      github: "https://github.com/Judithjbn/object-detection",
+      live: "https://judithjbn.github.io/object-detection/",
+    },
+    {
+      id: 5,
       name: "Iniatiativ",
       description: "Soporte en la maquetación con CSS, JS y Elementor.",
       technologies: ["CSS", "JS Vanilla", "WordPress", "all"],
@@ -57,7 +67,7 @@ export function loadProjects() {
       live: "https://asiico.org/",
     },
     {
-      id: 5,
+      id: 6,
       name: "Demo Gsap",
       description: "Diseño y maquetación sencilla como muestra de conocimientos en la libreria GSAP.",
       technologies: ["CSS", "GSAP", "all"], 
