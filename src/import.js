@@ -12,6 +12,7 @@ const coverPat = '/webpat.jpg';
 const coverAlerion = '/webAlerion.png';
 const coverIniatiativ = '/initativ-portfolio.jpg';
 const coverGsap = '/gsap-portfolio.jpg';
+const coverInvitaciones = '/wedding-portfolio.png';
 
 export {
   logoGithub,
@@ -26,5 +27,6 @@ export {
   coverAlerion,
   coverIniatiativ,
   coverGsap,
+  coverInvitaciones,
   scroll,
 };

@@ -1,6 +1,6 @@
 import { createProjectPlanet } from "./ProjectPlanet.js";
 
-import { coverChatBot,  coverPat, coverAlerion, coverIniatiativ, coverGsap } from "../../import.js";
+import { coverChatBot, coverInvitaciones, coverPat, coverAlerion, coverIniatiativ, coverGsap } from "../../import.js";
 
 export function loadProjects() {
   const projectsSection = document.createElement("section");
@@ -35,11 +35,11 @@ export function loadProjects() {
     },
     {
       id: 2,
-      name: "Chatbot IA Gemini",
-      description: "En proceso: Desarrollo de chatbot funcional con IA para implementarlo en Web.",
-      technologies: ["JS Vanilla", "CSS", "all"],
-      image: coverChatBot,
-      github: "https://github.com/Judithjbn/ChatBot",
+      name: "Invitaciones para boda",
+      description: "Desarrollo de invitaciones para boda optimizadas para móviles.",
+      technologies: ["Astro", "CSS", "Diseño", "all"],
+      image: coverInvitaciones,
+      live: "https://lospixis.netlify.app",
     },
     {
       id: 3,
