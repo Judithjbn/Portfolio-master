@@ -16,9 +16,12 @@ export function loadExperiencie() {
       </div>
       <div id="education-content" class="experiencie-grid hidden">
         <div class="experiencie-card">
-          <h3>Educación</h3>
+        <h3>Educación</h3>
+          <h4>Fundamentos de la gestión de proyectos, PM</h4>
+          <p class="date">2026</p>
+          <p>Google Career Certificates</p>
           <h4>Máster en Desarrollo FullStack</h4>
-          <p class="date">2024 - Actualidad</p>
+          <p class="date">2024 - 2026</p>
           <p>thePower</p>
           <h4>Ciclo Formativo Grado Superior</h4>
           <p class="date">2019 - 2020</p>
@@ -28,12 +31,14 @@ export function loadExperiencie() {
           <h3 style="text-align:center;">Skills</h3>
           <div class="skills">
             <ul>
+            <li>Angular</li>
             <li>React</li>
             <li>JavaScript</li>
-            <li>HTML5 / CSS3</li>
             <li>Astro</li>
+            <li>Typescript</li>
           </ul>
           <ul>
+            <li>HTML5 / CSS3</li>
             <li>Figma</li>
             <li>Affinity Designer</li>
             <li>Procreate</li>
@@ -46,6 +51,37 @@ export function loadExperiencie() {
   document.body.appendChild(experiencieSection);
 
   const experiences = [
+    {
+      company:"Frontend Developer (Angular)",
+      role:"Vueling",
+      date:"abr. 2026 - jun. 2026",
+      tasks: [
+        "Desarrollo de aplicaciones <strong>SPA</strong> con Angular, trabajando tanto con arquitecturas tradicionales basadas en <strong>módulos y BehaviorSubject</strong>, como con las nuevas versiones de <strong>Angular (v17+) orientadas a standalone components y signals.</strong>",
+        "Programación reactiva con <strong>RxJS</strong> y gestión de flujos asíncronos mediante observables. ",
+        "Desarrollo y organización de <strong>componentes, servicios, guards, providers, models y routing</strong> siguiendo buenas prácticas de arquitectura.",
+        "Aplicación de principios <strong>SOLID</strong>, separación de responsabilidades y componentización escalable.",
+        "Integración y consumo de <strong>APIs</strong>",
+        "<strong>Testing</strong> y fundamentos de <strong>QA</strong>",
+        "Refuerzo de fundamentos de <strong>Typescript</strong>",
+        "Participación en la mejora y adaptación de componentes y estilos dentro de un Design System interno basado en Angular Material.",
+        "Formación en ALM (Agile Lifecycle Management), flujos de despliegue, pipelines y estrategias y organización de ramas en Git. <strong>(Azure DevOps)</strong>"
+      ]
+    }, 
+    {
+      company: "IT Consultant | Software Developer",
+      role: "Iterem",
+      date: "2025",
+      tasks: [
+        "Desarrollo y mantenimiento de aplicaciones: producción de código limpio y eficiente, resolución de errores, actualización de software.<strong>(JavaScript, C#, .NET, etc.)</strong>",
+        "Análisis y desarrollo de mejoras o cambios en aplicaciones existentes.",
+        "Documentación técnica y de tareas realizadas. <strong>(Jira, Confluence)</strong>",
+        "Participación en la configuración, ajustes, actualizaciones y migraciones tecnológicas.",
+        "Verificación, despliegue y pruebas de software.<strong>(Git, Azure DevOps)</strong>",
+        "Participación en reuniones técnicas y de seguimiento con clientes.",
+        "Participación activa en equipos multidisciplinares, ayudando a miembros junior.",
+        "Aplicación de metodología propia de iterem y aportación de mejoras internas. <strong>(Enfoque ágil, reuniones stand-up, planificación iterativa...)</strong>"
+      ]
+    },
     {
       company: "Frontend Developer | Diseñadora Web",
       role: "Freelancer",
