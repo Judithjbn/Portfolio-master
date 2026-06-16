@@ -14,6 +14,7 @@ const coverIniatiativ = '/initativ-portfolio.jpg';
 const coverGsap = '/gsap-portfolio.jpg';
 const coverInvitaciones = '/wedding-portfolio.png';
 const coverObjectDetector = '/angular-portfolio.png';
+const translatesPorfolio = '/translates-portfolio.png';
 
 
 
@@ -28,6 +29,7 @@ export {
   coverChatBot,
   coverPat,
   coverAlerion,
+  translatesPorfolio,
   coverIniatiativ,
   coverGsap,
   coverInvitaciones,

@@ -1,6 +1,6 @@
 import { createProjectPlanet } from "./ProjectPlanet.js";
 
-import { coverChatBot, coverInvitaciones, coverObjectDetector, coverPat, coverAlerion, coverIniatiativ, coverGsap } from "../../import.js";
+import { coverChatBot, coverInvitaciones, translatesPorfolio, coverObjectDetector, coverPat, coverAlerion, coverIniatiativ, coverGsap } from "../../import.js";
 
 export function loadProjects() {
   const projectsSection = document.createElement("section");
@@ -68,6 +68,15 @@ export function loadProjects() {
     },
     {
       id: 6,
+      name: "i18n App",
+      description: "Proyecto sencillo de Angular para practicar traducciones (i18n) y cookies, usando dos librerías: ngx-translate18n y ngx-cookie-service.",
+      technologies: ["Angular", "all"],
+      image: translatesPorfolio,
+      github: "https://github.com/Judithjbn/i18n-app.git",
+      live: "https://judithjbn.github.io/i18n-app/"
+    },
+    {
+      id: 7,
       name: "Demo Gsap",
       description: "Diseño y maquetación sencilla como muestra de conocimientos en la libreria GSAP.",
       technologies: ["CSS", "GSAP", "all"], 
